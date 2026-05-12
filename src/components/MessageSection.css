@@ -1,0 +1,47 @@
+.message {
+  padding: 20vh 0;
+  background-color: var(--black);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.message__container {
+  max-width: 900px;
+  width: 90%;
+  text-align: center;
+}
+
+.message__line-wrapper {
+  overflow: hidden;
+  margin-bottom: 0.5rem;
+}
+
+.message__line {
+  font-size: clamp(1.5rem, 4vw, 3rem);
+  color: var(--white);
+  line-height: 1.4;
+  font-weight: 300;
+  will-change: transform;
+}
+
+.message__decoration {
+  margin-top: 4rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.message__dot {
+  width: 4px;
+  height: 4px;
+  background: var(--gold);
+  border-radius: 50%;
+}
+
+.message__line-deco {
+  width: 60px;
+  height: 1px;
+  background: linear-gradient(to right, transparent, var(--gold), transparent);
+}
